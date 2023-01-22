@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    // "test:watch": "jest --watchAll",
+    
     "coverage": "jest --collectCoverage"
   },
   "keywords": [
@@ -17,7 +17,12 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
 
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  }
   
 }
